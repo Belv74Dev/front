@@ -1,0 +1,30 @@
+.student-table {
+  margin: 25px 0 0;
+  /* .student-table__row */
+  /* .student-table__cail */
+  /* .student-table__input */
+  /* .student-table__action */
+  /* .student-table__action-img */
+  /* .student-table__action-edit */ }
+  .student-table__row {
+    height: 30px; }
+  .student-table__cail {
+    border: 1px solid #000;
+    height: 30px; }
+  .student-table__input {
+    padding: 5px 10px;
+    box-sizing: border-box; }
+    .student-table__input#tabel-group {
+      cursor: pointer; }
+    .student-table__input, .student-table__input:focus, .student-table__input:active, .student-table__input:hover {
+      outline: 0;
+      outline-offset: 0; }
+  .student-table__action {
+    display: flex;
+    padding: 5px 10px; }
+  .student-table__action-img {
+    margin: 0 10px;
+    cursor: pointer; }
+  .student-table__action-edit {
+    width: 100%;
+    height: 100%; }

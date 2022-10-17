@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./build/index.css">
+  <title>Практика 2</title>
+</head>
+<body>
+  <form class="filter-form">
+    <div class="filter-form__row">
+      <div class="filter-form__left">
+        <div class="filter-form__block">
+          <label class="filter-form__label" for="lastname">Фамилия</label>
+          <input id="lastname" type="text" class="filter-form__input">
+        </div>
+        <div class="filter-form__block">
+          <label class="filter-form__label" for="firstname">Имя</label>
+          <input id="firstname" type="text" class="filter-form__input">
+        </div>
+        <div class="filter-form__block">
+          <label class="filter-form__label" for="patronymic">Отчество</label>
+          <input id="patronymic" type="text" class="filter-form__input">
+        </div>
+      </div>
+      <div class="filter-form__rigth">
+        <div class="filter-form__block">
+          <label class="filter-form__label" for="birthd">Дата рождения</label>
+          <input id="birthd" type="date" class="filter-form__input">
+        </div>
+        <div class="filter-form__block filter-form__row-min">
+          <span class="filter-form__text">Средний балл</span>
+          <div class="filter-form__block-min">
+            <label class="filter-form__label" for="">От</label>
+            <input id="min-score" type="number" class="filter-form__input">
+          </div>
+          <div class="filter-form__block-min">
+            <label class="filter-form__label" for="">До</label>
+            <input id="max-score" type="number" class="filter-form__input">
+          </div>
+        </div>
+        <div class="filter-form__block">
+          <label class="filter-form__label" for="select-group">Группа</label>
+          <select id="select-group" name="select-group" class="filter-form__selcet">
+            <option value="null">-</option>
+            <option value="АВб-20-1">АВб-20-1</option>
+            <option value="АВб-20-2">АВб-20-2</option>
+            <option value="АВб-20-3">АВб-20-3</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <button class="filter-form__btn">Искать</button>
+  </form>
+  <table class="student-table">
+    <tr class="student-table__row title-cails">
+      <td class="student-table__cail">Фамилия</td>
+      <td class="student-table__cail">Имя</td>
+      <td class="student-table__cail">Отчество</td>
+      <td class="student-table__cail">Дата рождения</td>
+      <td class="student-table__cail">Средний балл</td>
+      <td class="student-table__cail">Группа</td>
+      <td class="student-table__cail">Действия</td>
+    </tr>
+  </table>
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>

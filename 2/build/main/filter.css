@@ -1,0 +1,65 @@
+.filter-form {
+  padding: 20px;
+  border: 1px dashed #000;
+  width: 600px;
+  margin: 1px 1px 0px 1px;
+  /* .filter-form__row */
+  /* .filter-form__left */
+  /* .filter-form__block */
+  /* .filter-form__label */
+  /* .filter-form__input */
+  /* .filter-form__rigth */
+  /* .filter-form__row-min */
+  /* .filter-form__text */
+  /* .filter-form__block-min */
+  /* .filter-form__selcet */
+  /* .filter-form__btn */ }
+  .filter-form__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%; }
+  .filter-form__left {
+    flex: 0 0 45%;
+    width: 45%; }
+  .filter-form__block {
+    margin: 10px 0 0; }
+  .filter-form__input {
+    display: block;
+    border: 1px solid #000;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 20px 0 0; }
+  .filter-form__rigth {
+    flex: 0 0 45%;
+    width: 45%; }
+  .filter-form__row-min {
+    display: flex;
+    flex-wrap: wrap; }
+  .filter-form__text {
+    flex: 0 0 100%;
+    display: block;
+    margin: 10px 0 0; }
+  .filter-form__block-min {
+    flex: 0 0 90px;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    margin: 5px 0 0 0; }
+    .filter-form__block-min > label {
+      font-size: 14px;
+      margin: 0 5px 0 0; }
+    .filter-form__block-min > input {
+      width: 50px;
+      margin: 0; }
+  .filter-form__selcet {
+    border: 1px solid #000;
+    margin: 10px 0 0;
+    margin: 10px 0 0 5px; }
+  .filter-form__btn {
+    border: 1px dashed #000;
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 0 0 auto; }
+    .filter-form__btn:hover {
+      border: 1px solid #20df20; }

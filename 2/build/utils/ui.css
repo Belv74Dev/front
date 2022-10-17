@@ -1,0 +1,12 @@
+.title-cails > td {
+  font-weight: 600;
+  padding: 5px 10px; }
+
+.del-this-item > td {
+  border-color: #e75f5f; }
+
+.update-this-item-start > td {
+  border-color: yellow; }
+
+.update-this-item-end > td {
+  border-color: #20df20; }
