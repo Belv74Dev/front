@@ -5,8 +5,14 @@
 .del-this-item > td {
   border-color: #e75f5f; }
 
+.del-this-item .student-table__action-img {
+  cursor: default; }
+
 .update-this-item-start > td {
   border-color: yellow; }
 
 .update-this-item-end > td {
   border-color: #20df20; }
+
+.hidden {
+  display: none; }

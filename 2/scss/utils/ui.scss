@@ -11,10 +11,20 @@ $yellow: rgb(255, 255, 0);
   border-color: $red;
 }
 
+.del-this-item {
+	.student-table__action-img {
+		cursor: default;
+	}
+}
+
 .update-this-item-start > td {
   border-color: $yellow;
 }
 
 .update-this-item-end > td {
   border-color: $green;
+}
+
+.hidden {
+	display: none;
 }
